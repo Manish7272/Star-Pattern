@@ -75,7 +75,64 @@
                 print(" ",end=" " )
         print()
 
+<br>
+
 # 6
+
+![Screenshot 2024-05-26 161925](https://github.com/Manish7272/Star-Pattern/assets/71213166/d23e823c-9317-4400-9048-3b3a7f4ee6a1)
+
+    for i in range(1,5):
+        for j in range(1,8):
+            if j>=i and j<=8-i:
+                print("*", end=" ")
+            else:
+                print(" ",end=" " )
+        print()
+
+<br>
+
+# 7
+![Screenshot 2024-05-26 162013](https://github.com/Manish7272/Star-Pattern/assets/71213166/8c5a71e0-9e53-4670-a59e-40635046c67b)
+
+    for i in range(1,5):
+        for j in range(1,8):
+            if j<=5-i or j>=3+i:
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+        print("")
+
+<hr>
+
+# 8 
+![Screenshot 2024-05-26 162042](https://github.com/Manish7272/Star-Pattern/assets/71213166/9ad9abf2-ab74-4608-9656-f41b7906dbaa)
+
+    for i in range(1,5):
+        for j in range(1,5):
+            if j<=i:
+                print(j, end=" ")
+            else:
+                print(" ", end=" ")
+        print()
+        
+
+<br>
+
+# 9
+
+![Screenshot 2024-05-26 173726](https://github.com/Manish7272/Star-Pattern/assets/71213166/073d2e0c-d888-4829-8b82-2ecfd676d4af)
+
+    for i in range(1,6):
+        k=6-i
+        for j in range(1,6):
+            if j<=6-i:
+                print(k, end=" ")
+                k=k-1
+            else:
+                print(" ", end=" ")
+        print()
+        
+
 
 
 
